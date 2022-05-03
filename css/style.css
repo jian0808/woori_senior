@@ -1,0 +1,54 @@
+@import url('reset.css');
+@import url('common.css');
+
+header .top{
+    padding: 33px 0;
+    letter-spacing: -1px;
+}
+header .top h1 a:first-child{
+    margin-right: 28px;
+}
+header .control{
+    margin-right: 20px;
+}
+header .control h2{
+    margin-right: 9px;
+    font-weight: 700;
+}
+header .control ul li{
+    padding-left: 4px;
+}
+header .control ul li button[class]{
+    padding: 0;
+}
+header .control ul li button{
+    min-width: 36px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3190ce;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    height: 36px;
+    border-radius: 36px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+header .sns{
+    margin-left: 10px;
+    position: relative;
+}
+header .sns::before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 12px;
+    width: 1px;
+    height: 30px;
+    background: #e3e3e3;
+}
+header .sns li+li{
+    margin-left: 12px;
+}
+header .sns li img{
+    width: 46px;
+}
