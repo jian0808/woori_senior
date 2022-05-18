@@ -15,6 +15,7 @@ section{
 .inner{
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 .row{
     display: flex;
@@ -40,6 +41,7 @@ section{
 .col4{
     width: 25%;
 }
+
 
 .skip{
     position: absolute;
