@@ -10,3 +10,19 @@ $(function(){
         $('.sub-menu').css('display', 'none');
     });
 });
+
+// main visual slide
+var swiper = new Swiper(".main_slide", {
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+      },
+  });

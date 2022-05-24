@@ -85,7 +85,7 @@ header nav .gnb .main-menu > li > a:hover{
     width: 100%;
     height: 280px;
     background-color: #fff;
-    /* display: none; */
+    display: none;
 }
 header nav .gnb .sub-menu{
     width: 100%;
@@ -111,7 +111,7 @@ header nav .gnb .sub-menu li a:hover{
 /* MAIN VISUAL */
 .main-visual{
     position: relative;
-    top: 160px;
+    top: 165px;
 }
 
 
