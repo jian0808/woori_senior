@@ -107,11 +107,43 @@ header nav .gnb .sub-menu li a:hover{
     text-decoration: underline;
     color: #288bcc;
 }
+header nav .util li+li{
+    margin-left: 24px;
+}
+header nav .util li:first-child{
+    position: relative;
+}
+header nav .util li:first-child::after{
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #e3e3e3;
+    position: absolute;
+    top: 23%;
+    right: -13px;
+}
+header nav .util li a{
+    color: #666;
+}
+header nav .util button{
+    text-indent: -9999px;
+    width: 36px;
+    height: 36px;
+    background: url('../images/btn_search_blue_pc.png') no-repeat 50% 50%;
+    margin-left: 25px;
+}
 
 /* MAIN VISUAL */
 .main-visual{
     position: relative;
     top: 165px;
+    height: 520px;
+}
+
+/* FINANCIAL SERVICE */
+.financial {
+    position: absolute;
+    top: 680px;
 }
 
 
