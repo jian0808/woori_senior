@@ -77,3 +77,14 @@ section{
     font-size: 22px;
     margin-top: 25px;
 }
+.btn{
+    display: inline-block;
+    padding: 8px 45px;
+    background-color: #122e80;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}

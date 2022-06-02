@@ -145,6 +145,36 @@ header nav .util button{
     position: absolute;
     top: 680px;
 }
-
+.financial .new_banner{
+    background: url('../images/new_banner01.jpg') no-repeat center;
+    width: 580px;
+    height: 280px;
+    position: relative;
+}
+.financial .event_banner{
+    background: url('../images/event_banner01.jpg') no-repeat center;
+    width: 580px;
+    height: 280px;
+    position: relative;
+}
+.financial .text_wrap{
+    height: 280px;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50%;
+    color: #fff;
+} 
+.financial .text_wrap h5{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.financial .text_wrap p{
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 15px;
+}
 
 
