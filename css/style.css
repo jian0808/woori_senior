@@ -135,15 +135,12 @@ header nav .util button{
 
 /* MAIN VISUAL */
 .main-visual{
-    position: relative;
-    top: 165px;
-    height: 520px;
+    margin-top: 165px;
 }
 
 /* FINANCIAL SERVICE */
 .financial {
-    position: absolute;
-    top: 680px;
+
 }
 .financial .new_banner{
     background: url('../images/new_banner01.jpg') no-repeat center;

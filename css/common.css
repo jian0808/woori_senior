@@ -64,6 +64,9 @@ section{
 .hide{
     display: none;
 }
+img{
+    max-width: 100%;
+}
 
 .title{
     margin-bottom: 40px;
